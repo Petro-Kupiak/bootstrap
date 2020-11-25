@@ -1,0 +1,140 @@
+
+#header {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.blurry {
+    background: none;
+    border: none;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.header-container {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+}
+.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-container .glucode-logo {
+    margin-right: auto;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+div {
+    display: block;
+}
+#navigation-items .navigation-items-header {
+    display: none;
+    
+}
+#navigation-items  {
+margin-right: auto;
+
+}
+#navigation-items ul li a {
+    color: #79797F !important;
+    color: var(--color-gray-1) !important;
+}
+#navigation-items ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.align-items-center {
+    align-items: center 
+}
+.justify-content-between {
+    justify-content: space-between 
+}
+.d-flex {
+    display: flex 
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    margin: 0 1rem;
+}
+.pt-5, .py-5 {
+    padding-top: 2.5rem !important;
+}
+.pl-0, .px-0 {
+    padding-left: 0 !important;
+}
+.pr-0, .px-0 {
+    padding-right: 0 !important;
+}
+body main {
+    min-height: 100%;
+    flex-grow: 1;
+    margin-top: 5rem;
+}
+.text-center {
+    text-align: center !important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+h1 {
+    font-size: 3.75rem;
+    line-height: 4.125rem;
+    font-weight: 600;
+    color: #000000 !important;
+    color: var(--color-primary-color) !important;
+}
+.mb-5, .my-5 {
+    margin-bottom: 2.5rem !important;
+}
+.mt-3, .my-3 {
+    margin-top: 1rem !important;
+}
+h4 {
+    font-size: 1.75rem;
+    font-weight: normal;
+    color: #79797F !important;
+    color: var(--color-gray-1) !important;
+}
